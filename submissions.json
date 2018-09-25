@@ -134,6 +134,21 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF43428862": {
+    "contest_id": 221,
+    "language": "GNU C++14",
+    "path": "codeforces/221/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Little Elephant and Array",
+    "problem_url": "https://codeforces.com/contest/221/problem/D",
+    "submission_id": "CF43428862",
+    "submission_url": "https://codeforces.com/contest/221/submission/43428862",
+    "tags": [
+      "data structures",
+      "*1800"
+    ],
+    "timestamp": "Sep/25/2018 19:42"
+  },
   "CF44119784": {
     "contest_id": 1065,
     "language": "GNU C++14",
