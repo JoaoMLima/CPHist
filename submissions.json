@@ -134,6 +134,23 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF44714608": {
+    "contest_id": 598,
+    "language": "GNU C++14",
+    "path": "codeforces/598/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Igor In the Museum",
+    "problem_url": "https://codeforces.com/contest/598/problem/D",
+    "submission_id": "CF44714608",
+    "submission_url": "https://codeforces.com/contest/598/submission/44714608",
+    "tags": [
+      "dfs and similar",
+      "graphs",
+      "shortest paths",
+      "*1700"
+    ],
+    "timestamp": "Oct/22/2018 17:44"
+  },
   "CF45003990": {
     "contest_id": 1043,
     "language": "GNU C++14",
