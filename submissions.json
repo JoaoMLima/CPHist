@@ -134,6 +134,21 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF45008017": {
+    "contest_id": 1043,
+    "language": "GNU C++14",
+    "path": "codeforces/1043/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Lost Array",
+    "problem_url": "https://codeforces.com/contest/1043/problem/B",
+    "submission_id": "CF45008017",
+    "submission_url": "https://codeforces.com/contest/1043/submission/45008017",
+    "tags": [
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Oct/28/2018 13:21"
+  },
   "CF45289564": {
     "contest_id": 1075,
     "language": "GNU C++14",
