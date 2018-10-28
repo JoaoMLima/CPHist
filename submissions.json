@@ -134,6 +134,22 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF45003990": {
+    "contest_id": 1043,
+    "language": "GNU C++14",
+    "path": "codeforces/1043/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Elections",
+    "problem_url": "https://codeforces.com/contest/1043/problem/A",
+    "submission_id": "CF45003990",
+    "submission_url": "https://codeforces.com/contest/1043/submission/45003990",
+    "tags": [
+      "implementation",
+      "math",
+      "*800"
+    ],
+    "timestamp": "Oct/28/2018 13:01"
+  },
   "CF45008017": {
     "contest_id": 1043,
     "language": "GNU C++14",
