@@ -134,6 +134,24 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF51949620": {
+    "contest_id": 986,
+    "language": "GNU C++14",
+    "path": "codeforces/986/C.cpp",
+    "problem_index": "C",
+    "problem_name": "AND Graph",
+    "problem_url": "https://codeforces.com/contest/986/problem/C",
+    "submission_id": "CF51949620",
+    "submission_url": "https://codeforces.com/contest/986/submission/51949620",
+    "tags": [
+      "bitmasks",
+      "dfs and similar",
+      "dsu",
+      "graphs",
+      "*2500"
+    ],
+    "timestamp": "Mar/28/2019 16:09"
+  },
   "CF51949708": {
     "contest_id": 914,
     "language": "GNU C++14",
