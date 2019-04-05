@@ -59,7 +59,7 @@ int getCentroid(int node) {
 	while(change) {
 		change = false;
 		for(int adj : g[node]) {
-			if(subtree[adj] < subtree[node] && subtree[adj] > sz / 2) {
+			if(!marked[adj] && subtree[adj] < subtree[node] && subtree[adj] > sz / 2) {
 				node = adj;
 				change = true; break;
 			}
