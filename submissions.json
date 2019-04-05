@@ -134,6 +134,25 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF52362455": {
+    "contest_id": 321,
+    "language": "GNU C++14",
+    "path": "codeforces/321/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Ciel the Commander",
+    "problem_url": "https://codeforces.com/contest/321/problem/C",
+    "submission_id": "CF52362455",
+    "submission_url": "https://codeforces.com/contest/321/submission/52362455",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "divide and conquer",
+      "greedy",
+      "trees",
+      "*2100"
+    ],
+    "timestamp": "Apr/05/2019 17:48"
+  },
   "CF52392368": {
     "contest_id": 1119,
     "language": "GNU C++14",
