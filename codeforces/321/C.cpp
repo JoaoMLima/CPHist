@@ -45,42 +45,44 @@ bool marked[100001];
 int subtree[100001];
 int dfsId = 0;
 int dfs(int i) {
-	subtree[i] = 1; visited[i] = dfsId;
-	for(int adj : g[i]) {
-		if (visited[adj] != dfsId && !marked[adj])
-			subtree[i] += dfs(adj);
+	subtree[i] = 1;
+	visited[i] = dfsId;
+	for(int j = 0; j < (int)g[i].size(); j++) {
+		//trace(j, visited[i], marked[j], g[i][j]);
+		if (visited[g[i][j]] != dfsId && !marked[g[i][j]]) {
+			subtree[i] += dfs(g[i][j]);
+		}
 	}
 	return subtree[i];
 }
 int getCentroid(int node) {
 	dfsId++;
 	int sz = dfs(node);
+	
 	bool change = true;
 	while(change) {
 		change = false;
-		for(int adj : g[node]) {
-			if(!marked[adj] && subtree[adj] < subtree[node] && subtree[adj] > sz / 2) {
-				node = adj;
+		for(int i = 0; i < (int)g[node].size(); i++) {
+			if(!marked[g[node][i]] && subtree[g[node][i]] < subtree[node] && subtree[g[node][i]] > sz / 2) {
+				node = g[node][i];
 				change = true; break;
 			}
 		}
 	}
 	marked[node] = true;
-	for(int adj : g[node]) {
-		if(!marked[adj]) {
+	for(int i = 0; i < (int)g[node].size(); i++) {
+		if(!marked[g[node][i]]) {
 			// To make a undirected tree
-			// int cent = getCentroid(adj);
+			// int cent = getCentroid(g[node][i]);
 			// centroidG[node].pb(cent);
 			// centroidG[cent].pb(node);
-			centroidG[node].pb(getCentroid(adj));
+			centroidG[node].pb(getCentroid(g[node][i]));
 		}
 	}
 	return node;
 }
-
 // To use on main
 // memset(marked, false, sizeof marked);
-// memset(visited, 0, sizeof visited);
 // int root = getCentroid(1);
 
 //End here
@@ -96,7 +98,7 @@ void dfs2(int i) {
 
 int main(){
 	memset(marked, false, sizeof marked);
-	memset(visited, 0, sizeof visited);
+	memset(visited, false, sizeof visited);
 	sc("%d", &n);
 	for(int i = 0; i < n-1; i++) {
 		sc("%d %d", &a, &b);
