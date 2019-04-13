@@ -134,6 +134,22 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF52688101": {
+    "contest_id": 1153,
+    "language": "GNU C++14",
+    "path": "codeforces/1153/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Serval and Bus",
+    "problem_url": "https://codeforces.com/contest/1153/problem/A",
+    "submission_id": "CF52688101",
+    "submission_url": "https://codeforces.com/contest/1153/submission/52688101",
+    "tags": [
+      "brute force",
+      "math",
+      "*1000"
+    ],
+    "timestamp": "Apr/13/2019 11:18"
+  },
   "CF52699168": {
     "contest_id": 1153,
     "language": "GNU C++14",
