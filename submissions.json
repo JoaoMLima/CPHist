@@ -134,6 +134,22 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF54212722": {
+    "contest_id": 1077,
+    "language": "GNU C++17",
+    "path": "codeforces/1077/F2.cpp",
+    "problem_index": "F2",
+    "problem_name": "Pictures with Kittens (hard version)",
+    "problem_url": "https://codeforces.com/contest/1077/problem/F2",
+    "submission_id": "CF54212722",
+    "submission_url": "https://codeforces.com/contest/1077/submission/54212722",
+    "tags": [
+      "data structures",
+      "dp",
+      "*2100"
+    ],
+    "timestamp": "May/15/2019 15:07"
+  },
   "CF54365000": {
     "contest_id": 558,
     "language": "GNU C++17",
