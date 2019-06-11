@@ -134,6 +134,25 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF55467922": {
+    "contest_id": 965,
+    "language": "GNU C++17",
+    "path": "codeforces/965/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Short Code",
+    "problem_url": "https://codeforces.com/contest/965/problem/E",
+    "submission_id": "CF55467922",
+    "submission_url": "https://codeforces.com/contest/965/submission/55467922",
+    "tags": [
+      "data structures",
+      "dp",
+      "greedy",
+      "strings",
+      "trees",
+      "*2200"
+    ],
+    "timestamp": "Jun/11/2019 14:15"
+  },
   "CF55470170": {
     "contest_id": 960,
     "language": "GNU C++17",
