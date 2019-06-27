@@ -134,6 +134,23 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF56180921": {
+    "contest_id": 321,
+    "language": "GNU C++11",
+    "path": "codeforces/321/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Ciel and Gondolas",
+    "problem_url": "https://codeforces.com/contest/321/problem/E",
+    "submission_id": "CF56180921",
+    "submission_url": "https://codeforces.com/contest/321/submission/56180921",
+    "tags": [
+      "data structures",
+      "divide and conquer",
+      "dp",
+      "*2600"
+    ],
+    "timestamp": "Jun/27/2019 20:27"
+  },
   "CF56181770": {
     "contest_id": 825,
     "language": "GNU C++11",
