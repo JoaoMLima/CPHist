@@ -134,6 +134,21 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF56180892": {
+    "contest_id": 643,
+    "language": "GNU C++17",
+    "path": "codeforces/643/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Levels and Regions",
+    "problem_url": "https://codeforces.com/contest/643/problem/C",
+    "submission_id": "CF56180892",
+    "submission_url": "https://codeforces.com/contest/643/submission/56180892",
+    "tags": [
+      "dp",
+      "*2400"
+    ],
+    "timestamp": "Jun/27/2019 20:25"
+  },
   "CF56180921": {
     "contest_id": 321,
     "language": "GNU C++11",
