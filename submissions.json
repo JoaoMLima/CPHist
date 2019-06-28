@@ -134,6 +134,22 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF56182239": {
+    "contest_id": 762,
+    "language": "GNU C++11",
+    "path": "codeforces/762/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Radio stations",
+    "problem_url": "https://codeforces.com/contest/762/problem/E",
+    "submission_id": "CF56182239",
+    "submission_url": "https://codeforces.com/contest/762/submission/56182239",
+    "tags": [
+      "binary search",
+      "data structures",
+      "*2200"
+    ],
+    "timestamp": "Jun/27/2019 22:14"
+  },
   "CF56182313": {
     "contest_id": 518,
     "language": "GNU C++14",
