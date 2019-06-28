@@ -134,6 +134,23 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF56182031": {
+    "contest_id": 520,
+    "language": "GNU C++11",
+    "path": "codeforces/520/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Cubes",
+    "problem_url": "https://codeforces.com/contest/520/problem/D",
+    "submission_id": "CF56182031",
+    "submission_url": "https://codeforces.com/contest/520/submission/56182031",
+    "tags": [
+      "games",
+      "greedy",
+      "implementation",
+      "*2100"
+    ],
+    "timestamp": "Jun/27/2019 21:55"
+  },
   "CF56182079": {
     "contest_id": 484,
     "language": "GNU C++11",
