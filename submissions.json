@@ -134,6 +134,26 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF56478140": {
+    "contest_id": 1182,
+    "language": "GNU C++11",
+    "path": "codeforces/1182/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Complete Mirror",
+    "problem_url": "https://codeforces.com/contest/1182/problem/D",
+    "submission_id": "CF56478140",
+    "submission_url": "https://codeforces.com/contest/1182/submission/56478140",
+    "tags": [
+      "constructive algorithms",
+      "dfs and similar",
+      "dp",
+      "hashing",
+      "implementation",
+      "trees",
+      "*2400"
+    ],
+    "timestamp": "Jul/03/2019 11:06"
+  },
   "CF57024699": {
     "contest_id": 1194,
     "language": "GNU C++11",
