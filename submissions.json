@@ -134,6 +134,22 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF57041132": {
+    "contest_id": 1194,
+    "language": "GNU C++11",
+    "path": "codeforces/1194/C.cpp",
+    "problem_index": "C",
+    "problem_name": "From S To T",
+    "problem_url": "https://codeforces.com/contest/1194/problem/C",
+    "submission_id": "CF57041132",
+    "submission_url": "https://codeforces.com/contest/1194/submission/57041132",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1300"
+    ],
+    "timestamp": "Jul/14/2019 12:39"
+  },
   "CF57046527": {
     "contest_id": 1194,
     "language": "GNU C++11",
