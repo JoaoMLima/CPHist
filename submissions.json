@@ -134,6 +134,22 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF60658451": {
+    "contest_id": 325,
+    "language": "Python 3",
+    "path": "codeforces/325/B.py",
+    "problem_index": "B",
+    "problem_name": "Stadium and Games",
+    "problem_url": "https://codeforces.com/contest/325/problem/B",
+    "submission_id": "CF60658451",
+    "submission_url": "https://codeforces.com/contest/325/submission/60658451",
+    "tags": [
+      "binary search",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Sep/15/2019 23:28"
+  },
   "CF60660330": {
     "contest_id": 520,
     "language": "GNU C++17",
