@@ -134,6 +134,24 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF60660330": {
+    "contest_id": 520,
+    "language": "GNU C++17",
+    "path": "codeforces/520/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Pluses everywhere",
+    "problem_url": "https://codeforces.com/contest/520/problem/E",
+    "submission_id": "CF60660330",
+    "submission_url": "https://codeforces.com/contest/520/submission/60660330",
+    "tags": [
+      "combinatorics",
+      "dp",
+      "math",
+      "number theory",
+      "*2200"
+    ],
+    "timestamp": "Sep/16/2019 01:14"
+  },
   "CF61173367": {
     "contest_id": 910,
     "language": "GNU C++17",
