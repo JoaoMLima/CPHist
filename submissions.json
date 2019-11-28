@@ -134,6 +134,21 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF65890990": {
+    "contest_id": 87,
+    "language": "GNU C++17",
+    "path": "codeforces/87/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Mogohu-Rea Idol",
+    "problem_url": "https://codeforces.com/contest/87/problem/E",
+    "submission_id": "CF65890990",
+    "submission_url": "https://codeforces.com/contest/87/submission/65890990",
+    "tags": [
+      "geometry",
+      "*2600"
+    ],
+    "timestamp": "Nov/28/2019 00:17"
+  },
   "CF66324704": {
     "contest_id": 1265,
     "language": "GNU C++17",
