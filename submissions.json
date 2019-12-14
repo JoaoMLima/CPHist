@@ -134,6 +134,24 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF66858651": {
+    "contest_id": 1277,
+    "language": "GNU C++17",
+    "path": "codeforces/1277/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Let's Play the Words?",
+    "problem_url": "https://codeforces.com/contest/1277/problem/D",
+    "submission_id": "CF66858651",
+    "submission_url": "https://codeforces.com/contest/1277/submission/66858651",
+    "tags": [
+      "data structures",
+      "hashing",
+      "implementation",
+      "math",
+      "*1900"
+    ],
+    "timestamp": "Dec/14/2019 09:25"
+  },
   "CF66871305": {
     "contest_id": 1277,
     "language": "GNU C++17",
