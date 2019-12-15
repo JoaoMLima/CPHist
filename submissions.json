@@ -134,6 +134,23 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF66990840": {
+    "contest_id": 993,
+    "language": "GNU C++17",
+    "path": "codeforces/993/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Nikita and Order Statistics",
+    "problem_url": "https://codeforces.com/contest/993/problem/E",
+    "submission_id": "CF66990840",
+    "submission_url": "https://codeforces.com/contest/993/submission/66990840",
+    "tags": [
+      "chinese remainder theorem",
+      "fft",
+      "math",
+      "*2300"
+    ],
+    "timestamp": "Dec/15/2019 17:18"
+  },
   "CF66992739": {
     "contest_id": 1096,
     "language": "GNU C++17",
