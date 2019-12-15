@@ -134,6 +134,23 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF66993308": {
+    "contest_id": 1096,
+    "language": "GNU C++17",
+    "path": "codeforces/1096/G.cpp",
+    "problem_index": "G",
+    "problem_name": "Lucky Tickets",
+    "problem_url": "https://codeforces.com/contest/1096/problem/G",
+    "submission_id": "CF66993308",
+    "submission_url": "https://codeforces.com/contest/1096/submission/66993308",
+    "tags": [
+      "divide and conquer",
+      "dp",
+      "fft",
+      "*2400"
+    ],
+    "timestamp": "Dec/15/2019 19:07"
+  },
   "CF66995365": {
     "contest_id": 528,
     "language": "GNU C++17",
