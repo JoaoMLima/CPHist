@@ -15,14 +15,14 @@ const int root = 15311432;
 const int root_1 = 469870224;
 const int root_pw = 1<<23;
 
-ll modpow(ll a, ll b, ll m) {
+ll modpow(ll a, ll b) {
 	if(b == 0LL) return 1LL;
-	if(b & 1LL) return a*modpow(a, b-1, m)%m;
-	ll x = modpow(a, b>>1, m);
-	return x*x%m;
+	if(b & 1LL) return a*modpow(a, b-1)%998244353LL;
+	ll x = modpow(a, b>>1);
+	return x*x%998244353LL;
 }
-int reverse(int a, int m) {
-	return modpow(a, m-2, m);
+int inverse(int a) {
+	return modpow(a, mod-2);
 }
 
 
@@ -56,16 +56,16 @@ void fft(vector<int> & a, bool invert) {
     }
 
     if (invert) {
-        int n_1 = reverse(n, mod);
+        int n_1 = inverse(n);
         for (int & x : a)
             x = (int)(1LL * x * n_1 % mod);
     }
 }
 
-vector<int> multiply(vector<int> a,vector<int> b, int lmax) {
+vector<int> multiply(vector<int> a,vector<int> b) {
 	int l = a.size() + b.size();
     int n = 1;
-    while (n < l) 
+    while (n < a.size() + b.size()) 
         n <<= 1;
     a.resize(n);
     b.resize(n);
@@ -73,20 +73,18 @@ vector<int> multiply(vector<int> a,vector<int> b, int lmax) {
     fft(a, false);
     fft(b, false);
     for (int i = 0; i < n; i++)
-        a[i] = a[i]*1LL*b[i]%mod;
+        a[i] = (a[i]*1LL*b[i])%998244353LL;
     fft(a, true);
-	a.resize(min(l, lmax));
+	a.resize(l);
     return a;
 }
-// lmax representa o tamanho máximo do array de retorno (para quando
-// a exponeniação deixa o array muito grande, mas apenas as primeiras
-// posições são úteis)
-vector<int> expofft(vector<int> a,int b, int lmax = 1<<21) {
-    if(b == 0LL) return vector<int>(1, 1);
-	if(b & 1LL) return multiply(a, expofft(a, b-1, lmax), lmax);
-	vector<int> res = expofft(a, b>>1, lmax);
 
-	return multiply(res, res, lmax);
+vector<int> expofft(vector<int> a,int b) {
+    if(b == 0LL) return vector<int>(1, 1);
+	if(b & 1LL) return multiply(a, expofft(a, b-1));
+	vector<int> res = expofft(a, b>>1);
+
+	return multiply(res, res);
 }
 
 int main(){
