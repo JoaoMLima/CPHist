@@ -134,6 +134,23 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF67179658": {
+    "contest_id": 1246,
+    "language": "GNU C++17",
+    "path": "codeforces/1246/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Power Products",
+    "problem_url": "https://codeforces.com/contest/1246/problem/B",
+    "submission_id": "CF67179658",
+    "submission_url": "https://codeforces.com/contest/1246/submission/67179658",
+    "tags": [
+      "hashing",
+      "implementation",
+      "math",
+      "*1800"
+    ],
+    "timestamp": "Dec/18/2019 18:37"
+  },
   "CF67180369": {
     "contest_id": 1246,
     "language": "GNU C++17",
