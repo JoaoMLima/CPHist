@@ -134,6 +134,23 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF70188005": {
+    "contest_id": 1239,
+    "language": "GNU C++17",
+    "path": "codeforces/1239/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Queue in the Train",
+    "problem_url": "https://codeforces.com/contest/1239/problem/C",
+    "submission_id": "CF70188005",
+    "submission_url": "https://codeforces.com/contest/1239/submission/70188005",
+    "tags": [
+      "data structures",
+      "greedy",
+      "implementation",
+      "*2300"
+    ],
+    "timestamp": "Feb/03/2020 20:34"
+  },
   "CF70197529": {
     "contest_id": 1292,
     "language": "GNU C++17",
