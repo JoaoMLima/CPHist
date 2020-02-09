@@ -134,6 +134,22 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF70653740": {
+    "contest_id": 1300,
+    "language": "GNU C++17",
+    "path": "codeforces/1300/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Anu Has a Function",
+    "problem_url": "https://codeforces.com/contest/1300/problem/C",
+    "submission_id": "CF70653740",
+    "submission_url": "https://codeforces.com/contest/1300/submission/70653740",
+    "tags": [
+      "greedy",
+      "math",
+      "*1500"
+    ],
+    "timestamp": "Feb/09/2020 11:49"
+  },
   "CF70664690": {
     "contest_id": 1300,
     "language": "GNU C++17",
