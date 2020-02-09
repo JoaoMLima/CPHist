@@ -134,6 +134,21 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF70664690": {
+    "contest_id": 1300,
+    "language": "GNU C++17",
+    "path": "codeforces/1300/D.cpp",
+    "problem_index": "D",
+    "problem_name": "Aerodynamic",
+    "problem_url": "https://codeforces.com/contest/1300/problem/D",
+    "submission_id": "CF70664690",
+    "submission_url": "https://codeforces.com/contest/1300/submission/70664690",
+    "tags": [
+      "geometry",
+      "*1800"
+    ],
+    "timestamp": "Feb/09/2020 12:19"
+  },
   "CF70682241": {
     "contest_id": 1300,
     "language": "GNU C++17",
