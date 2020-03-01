@@ -134,6 +134,23 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF72213145": {
+    "contest_id": 1321,
+    "language": "GNU C++17",
+    "path": "codeforces/1321/E.cpp",
+    "problem_index": "E",
+    "problem_name": "World of Darkraft: Battle for Azathoth",
+    "problem_url": "https://codeforces.com/contest/1321/problem/E",
+    "submission_id": "CF72213145",
+    "submission_url": "https://codeforces.com/contest/1321/submission/72213145",
+    "tags": [
+      "data structures",
+      "sortings",
+      "two pointers",
+      "*2000"
+    ],
+    "timestamp": "Mar/01/2020 16:08"
+  },
   "CF72538255": {
     "contest_id": 1316,
     "language": "GNU C++17",
