@@ -134,6 +134,21 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF72167811": {
+    "contest_id": 1321,
+    "language": "GNU C++17",
+    "path": "codeforces/1321/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Contest for Robots",
+    "problem_url": "https://codeforces.com/contest/1321/problem/A",
+    "submission_id": "CF72167811",
+    "submission_url": "https://codeforces.com/contest/1321/submission/72167811",
+    "tags": [
+      "greedy",
+      "*900"
+    ],
+    "timestamp": "Mar/01/2020 10:22"
+  },
   "CF72172666": {
     "contest_id": 1321,
     "language": "GNU C++17",
