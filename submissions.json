@@ -134,6 +134,22 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF73669302": {
+    "contest_id": 1326,
+    "language": "GNU C++14",
+    "path": "codeforces/1326/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Maximums",
+    "problem_url": "https://codeforces.com/contest/1326/problem/B",
+    "submission_id": "CF73669302",
+    "submission_url": "https://codeforces.com/contest/1326/submission/73669302",
+    "tags": [
+      "implementation",
+      "math",
+      "*900"
+    ],
+    "timestamp": "Mar/19/2020 11:44"
+  },
   "CF73677421": {
     "contest_id": 1326,
     "language": "GNU C++17",
