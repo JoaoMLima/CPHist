@@ -8,17 +8,17 @@ using namespace std;
 #define mp make_pair
 #define L(x) ((x)*2+1)
 #define R(x) ((x)*2+2)
- 
+
 typedef long long ll;
 typedef pair<int, int> ii;
- 
+
 struct node {
 	ll v = 0, acum = 0, qtd = 0;
 	node *l = NULL, *r = NULL;
 };
- 
+
 typedef node* pNode;
- 
+
 void update2(pNode p, ll l, ll r, ll i, ll v) {
 	if (l > i || r < i) return;
 	p->qtd += v;
@@ -33,7 +33,7 @@ void update2(pNode p, ll l, ll r, ll i, ll v) {
 	if (p->r == NULL) p->r = new node;
 	update2(p->r, m+1, r, i, v);
 }
- 
+
 void update(pNode p, ll l, ll r, ll i, ll j, ll v) {
 	if (l > j || r < i) return;
 	if (l >= i && r <= j) {
@@ -47,7 +47,7 @@ void update(pNode p, ll l, ll r, ll i, ll j, ll v) {
 	update(p->r, m+1, r, i, j, v);
 	p->v += v*(min(j, r) - max(i, l) + 1);
 }
- 
+
 ll query(pNode p, ll l, ll r, ll i, ll j) {
 	if (l > j || r < i) return 0LL;
 	if (l >= i && r <= j) {
@@ -58,21 +58,22 @@ ll query(pNode p, ll l, ll r, ll i, ll j) {
 	if (p->r == NULL) p->r = new node;
 	return p->acum*(min(j, r) - max(i, l) + 1) + query(p->l, l, m, i, j) + query(p->r, m+1, r, i, j);
 }
- 
-void print128(__int128 num) {
-    
-    if (num < 0) {
-        pr("-");
-        num = -num;
-    }
-	if (num / 10) {
-		print128(num/10);
-	}
-	pr("%d", (int)(num % 10));
+
+string toString(__int128 num) {
+    string str;
+    int neg = num < 0;
+    if (neg) num = -num;
+    do {
+        int digit = num % 10;
+        str = to_string(digit) + str;
+        num = (num - digit) / 10;
+    } while (num != 0);
+    if(neg) str = "-"+str;
+    return str;
 }
- 
+
 pNode root = new node;
- 
+
 int n, a, b, c;
 int main(){
 	sc("%d", &n);
@@ -86,7 +87,7 @@ int main(){
 		update(root, 1, 1000000010, a+2, 1000000010, 1);
 		update2(root, 1, 1000000010, a+2, 1);
 	}
- 
+
 	//pr("%lld %lld\n", query(root, 1, 1000000000, 1, 1000000000), r);
 	
 	for(int x : v) {
@@ -100,8 +101,7 @@ int main(){
 		update(root, 1, 1000000010, v[i]+2, 1000000010, 1);
 		update2(root, 1, 1000000010, v[i]+2, 1);
 	}
-	print128(r);
-	pr("\n");
+	cout << toString(r) << endl;
 	//pr("%lld\n", r);
  	return 0;
 }
