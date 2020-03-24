@@ -134,6 +134,23 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF74243901": {
+    "contest_id": 900,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/900/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Maximum Questions",
+    "problem_url": "https://codeforces.com/contest/900/problem/E",
+    "submission_id": "CF74243901",
+    "submission_url": "https://codeforces.com/contest/900/submission/74243901",
+    "tags": [
+      "data structures",
+      "dp",
+      "strings",
+      "*2100"
+    ],
+    "timestamp": "Mar/24/2020 19:17"
+  },
   "CF74297492": {
     "contest_id": 898,
     "language": "GNU C++17 (64)",
