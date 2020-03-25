@@ -134,6 +134,22 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF74301909": {
+    "contest_id": 898,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/898/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Phone Numbers",
+    "problem_url": "https://codeforces.com/contest/898/problem/C",
+    "submission_id": "CF74301909",
+    "submission_url": "https://codeforces.com/contest/898/submission/74301909",
+    "tags": [
+      "implementation",
+      "strings",
+      "*1400"
+    ],
+    "timestamp": "Mar/25/2020 11:42"
+  },
   "CF74305943": {
     "contest_id": 898,
     "language": "GNU C++17 (64)",
