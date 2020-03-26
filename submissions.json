@@ -134,6 +134,23 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF74391674": {
+    "contest_id": 899,
+    "language": "GNU C++17 (64)",
+    "path": "codeforces/899/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Dividing the numbers",
+    "problem_url": "https://codeforces.com/contest/899/problem/C",
+    "submission_id": "CF74391674",
+    "submission_url": "https://codeforces.com/contest/899/submission/74391674",
+    "tags": [
+      "constructive algorithms",
+      "graphs",
+      "math",
+      "*1300"
+    ],
+    "timestamp": "Mar/26/2020 10:38"
+  },
   "CF74431394": {
     "contest_id": 1328,
     "language": "GNU C++17 (64)",
