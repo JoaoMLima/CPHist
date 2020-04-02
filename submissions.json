@@ -134,6 +134,23 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF75270638": {
+    "contest_id": 907,
+    "language": "GNU C++17",
+    "path": "codeforces/907/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Shockers",
+    "problem_url": "https://codeforces.com/contest/907/problem/C",
+    "submission_id": "CF75270638",
+    "submission_url": "https://codeforces.com/contest/907/submission/75270638",
+    "tags": [
+      "bitmasks",
+      "implementation",
+      "strings",
+      "*1600"
+    ],
+    "timestamp": "Apr/02/2020 14:21"
+  },
   "CF75406449": {
     "contest_id": 1329,
     "language": "GNU C++17",
