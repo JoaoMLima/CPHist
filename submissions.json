@@ -134,6 +134,21 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF75197205": {
+    "contest_id": 902,
+    "language": "GNU C++17",
+    "path": "codeforces/902/C.cpp",
+    "problem_index": "C",
+    "problem_name": "Hashing Trees",
+    "problem_url": "https://codeforces.com/contest/902/problem/C",
+    "submission_id": "CF75197205",
+    "submission_url": "https://codeforces.com/contest/902/submission/75197205",
+    "tags": [
+      "constructive algorithms",
+      "*1500"
+    ],
+    "timestamp": "Apr/02/2020 00:58"
+  },
   "CF75267019": {
     "contest_id": 907,
     "language": "GNU C++17",
