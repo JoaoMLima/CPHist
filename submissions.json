@@ -134,6 +134,21 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF75268792": {
+    "contest_id": 907,
+    "language": "GNU C++17",
+    "path": "codeforces/907/B.cpp",
+    "problem_index": "B",
+    "problem_name": "Tic-Tac-Toe",
+    "problem_url": "https://codeforces.com/contest/907/problem/B",
+    "submission_id": "CF75268792",
+    "submission_url": "https://codeforces.com/contest/907/submission/75268792",
+    "tags": [
+      "implementation",
+      "*1400"
+    ],
+    "timestamp": "Apr/02/2020 14:04"
+  },
   "CF75270638": {
     "contest_id": 907,
     "language": "GNU C++17",
