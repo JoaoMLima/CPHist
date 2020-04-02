@@ -134,6 +134,22 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF75267019": {
+    "contest_id": 907,
+    "language": "GNU C++17",
+    "path": "codeforces/907/A.cpp",
+    "problem_index": "A",
+    "problem_name": "Masha and Bears",
+    "problem_url": "https://codeforces.com/contest/907/problem/A",
+    "submission_id": "CF75267019",
+    "submission_url": "https://codeforces.com/contest/907/submission/75267019",
+    "tags": [
+      "brute force",
+      "implementation",
+      "*1300"
+    ],
+    "timestamp": "Apr/02/2020 13:46"
+  },
   "CF75268792": {
     "contest_id": 907,
     "language": "GNU C++17",
