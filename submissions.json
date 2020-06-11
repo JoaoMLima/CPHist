@@ -2560,6 +2560,26 @@
     ],
     "timestamp": "May/31/2020 11:43"
   },
+  "CF83483974": {
+    "contest_id": 1366,
+    "language": "GNU C++17",
+    "path": "codeforces/1366/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Two Arrays",
+    "problem_url": "https://codeforces.com/contest/1366/problem/E",
+    "submission_id": "CF83483974",
+    "submission_url": "https://codeforces.com/contest/1366/submission/83483974",
+    "tags": [
+      "binary search",
+      "brute force",
+      "combinatorics",
+      "constructive algorithms",
+      "dp",
+      "two pointers",
+      "*2100"
+    ],
+    "timestamp": "Jun/11/2020 18:55"
+  },
   "CF83635691": {
     "contest_id": 1364,
     "language": "GNU C++17",
