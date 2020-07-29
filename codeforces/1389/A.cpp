@@ -9,12 +9,11 @@ using namespace std;
 #define MAX 100007
 #define MOD 1000000007
 #define MODL 1000000007LL
-#define EPS 1e-12
 #define sz(x) ((int)(x).size())
 
 typedef long long ll;
 typedef long double ld;
-typedef pair<ll, ll> ii;
+typedef pair<int, int> ii;
 
 // Trace dinâmico
 template<typename T>
@@ -30,6 +29,16 @@ void recInit(Args... args) { prTabs(); trace("rec(", args..., ")"); recNum++; }
 template<typename T>
 void recEnd(T a) { prTabs(); trace("->", a); recNum--;}
 
+int MD(int x) {
+	if(x < 0) return x+MOD;
+	if(x >= MOD) return x-MOD;
+	return x;
+}
+
+ll MDL(ll x) {
+	return (x%MODL+MODL)%MODL;
+}
+
 ll modpow(ll a, ll b, ll m) {
 	if (!b) return 1LL;
 	if (b&1LL) return a*modpow(a, b-1, m)%m;
@@ -37,18 +46,20 @@ ll modpow(ll a, ll b, ll m) {
 	return r*r%m;
 }
 
+//m prime
+ll invmod(ll a , ll m) {
+	return modpow(a, m-2, m);
+}
 
-int crivo[1007];
-int n, a, b;
-string s;
-vector<int> v;
+
+
+int n, t, a, b, c;
 int main(){
-	sc("%d", &n);
-	while(n--) {
+	sc("%d", &t);
+	while(t--) {
 		sc("%d %d", &a, &b);
-		if (a*2 <= b) pr("%d %d\n", a, a*2);
+		if (a +a <= b) pr("%d %d\n", a, a+a);
 		else pr("-1 -1\n");
 	}
-	
  	return 0;
 }
