@@ -134,6 +134,24 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF90183524": {
+    "contest_id": 1392,
+    "language": "GNU C++17",
+    "path": "codeforces/1392/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Omkar and Duck",
+    "problem_url": "https://codeforces.com/contest/1392/problem/E",
+    "submission_id": "CF90183524",
+    "submission_url": "https://codeforces.com/contest/1392/submission/90183524",
+    "tags": [
+      "bitmasks",
+      "constructive algorithms",
+      "interactive",
+      "math",
+      "*2100"
+    ],
+    "timestamp": "Aug/16/2020 22:06"
+  },
   "CF90912262": {
     "contest_id": 1400,
     "language": "GNU C++17",
