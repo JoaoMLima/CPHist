@@ -134,6 +134,22 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF91673470": {
+    "contest_id": 75,
+    "language": "GNU C++17",
+    "path": "codeforces/75/E.cpp",
+    "problem_index": "E",
+    "problem_name": "Ship's Shortest Path",
+    "problem_url": "https://codeforces.com/contest/75/problem/E",
+    "submission_id": "CF91673470",
+    "submission_url": "https://codeforces.com/contest/75/submission/91673470",
+    "tags": [
+      "geometry",
+      "shortest paths",
+      "*2400"
+    ],
+    "timestamp": "Sep/02/2020 17:34"
+  },
   "CF92410988": {
     "contest_id": 1407,
     "language": "GNU C++17",
