@@ -50,7 +50,7 @@ public class Main{
 				results[i-1] = answerQuestion(l, r, sortedCumulatedSum);
 			}
 		}
-		for(Long result: results){
+		for(long result: results){
 			System.out.println(result);
 		}
 	}
