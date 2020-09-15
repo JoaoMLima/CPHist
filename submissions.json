@@ -134,6 +134,22 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF92896310": {
+    "contest_id": 879,
+    "language": "PyPy 2",
+    "path": "codeforces/879/B.py",
+    "problem_index": "B",
+    "problem_name": "Table Tennis",
+    "problem_url": "https://codeforces.com/contest/879/problem/B",
+    "submission_id": "CF92896310",
+    "submission_url": "https://codeforces.com/contest/879/submission/92896310",
+    "tags": [
+      "data structures",
+      "implementation",
+      "*1200"
+    ],
+    "timestamp": "Sep/15/2020 08:34"
+  },
   "CF93010916": {
     "contest_id": 1406,
     "language": "GNU C++17",
