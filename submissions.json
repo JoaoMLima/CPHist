@@ -134,6 +134,24 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF94399566": {
+    "contest_id": 677,
+    "language": "PyPy 2",
+    "path": "codeforces/677/C.py",
+    "problem_index": "C",
+    "problem_name": "Vanya and Label",
+    "problem_url": "https://codeforces.com/contest/677/problem/C",
+    "submission_id": "CF94399566",
+    "submission_url": "https://codeforces.com/contest/677/submission/94399566",
+    "tags": [
+      "bitmasks",
+      "combinatorics",
+      "implementation",
+      "strings",
+      "*1500"
+    ],
+    "timestamp": "Oct/01/2020 08:11"
+  },
   "CF94663014": {
     "contest_id": 1422,
     "language": "GNU C++17 (64)",
