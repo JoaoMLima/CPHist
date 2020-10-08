@@ -134,6 +134,26 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF94946494": {
+    "contest_id": 1284,
+    "language": "PyPy 2",
+    "path": "codeforces/1284/B.py",
+    "problem_index": "B",
+    "problem_name": "New Year and Ascent Sequence",
+    "problem_url": "https://codeforces.com/contest/1284/problem/B",
+    "submission_id": "CF94946494",
+    "submission_url": "https://codeforces.com/contest/1284/submission/94946494",
+    "tags": [
+      "binary search",
+      "combinatorics",
+      "data structures",
+      "dp",
+      "implementation",
+      "sortings",
+      "*1400"
+    ],
+    "timestamp": "Oct/08/2020 18:22"
+  },
   "CF94954028": {
     "contest_id": 1084,
     "language": "PyPy 2",
