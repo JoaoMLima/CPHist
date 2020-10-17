@@ -134,6 +134,25 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF95802967": {
+    "contest_id": 1428,
+    "language": "GNU C++17",
+    "path": "codeforces/1428/F.cpp",
+    "problem_index": "F",
+    "problem_name": "Fruit Sequences",
+    "problem_url": "https://codeforces.com/contest/1428/problem/F",
+    "submission_id": "CF95802967",
+    "submission_url": "https://codeforces.com/contest/1428/submission/95802967",
+    "tags": [
+      "binary search",
+      "data structures",
+      "divide and conquer",
+      "dp",
+      "two pointers",
+      "*2400"
+    ],
+    "timestamp": "Oct/17/2020 12:22"
+  },
   "CF95857134": {
     "contest_id": 1421,
     "language": "GNU C++17",
