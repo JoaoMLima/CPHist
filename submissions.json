@@ -134,6 +134,24 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF96261089": {
+    "contest_id": 682,
+    "language": "PyPy 2",
+    "path": "codeforces/682/C.py",
+    "problem_index": "C",
+    "problem_name": "Alyona and the Tree",
+    "problem_url": "https://codeforces.com/contest/682/problem/C",
+    "submission_id": "CF96261089",
+    "submission_url": "https://codeforces.com/contest/682/submission/96261089",
+    "tags": [
+      "dfs and similar",
+      "dp",
+      "graphs",
+      "trees",
+      "*1600"
+    ],
+    "timestamp": "Oct/21/2020 08:53"
+  },
   "CF96263642": {
     "contest_id": 727,
     "language": "PyPy 2",
