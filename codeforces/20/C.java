@@ -1,67 +1,69 @@
 import java.util.*;
 
 public class Main {
-    
+    public static long infinity = 1000000000000L;
+    public static int n, m;
 	public static void main(String[] args) {
 	    Scanner input = new Scanner(System.in);
-	    long INF = 1000000000000L;
-	    String[] nm = input.nextLine().split(" ");
-		int n = Integer.parseInt(nm[0]);
-		int m = Integer.parseInt(nm[1]);
+		String[] nm = input.nextLine().split(" ");
+		n = Integer.parseInt(nm[0]);
+		m = Integer.parseInt(nm[1]);
 		
-		long[] d = new long[n+1];
-		int[] pre = new int[n+1];
-		for(int i =0; i <= n; i++) {
-			d[i] = INF;
-			pre[i] = 0;
+		long[] distances = new long[n+1];
+		int[] predecessors = new int[n+1];
+		for(int i =0; i < distances.length; i++) {
+			distances[i] = infinity;
+			predecessors[i] = 0;
 		}
 		
-		ArrayList < ArrayList<Pair> > g = new ArrayList< ArrayList<Pair> >();	//lista de adjacencias
+		ArrayList < ArrayList<Pair> > graph = new ArrayList< ArrayList<Pair> >();	//lista de adjacencias
 		for(int i =0; i <= n; i++) {
-			g.add(new ArrayList<Pair>());
+			graph.add(new ArrayList<Pair>());
 		}
 		for(int i = 0; i < m; i++) {
-		    String[] edge = input.nextLine().split(" ");
-			int v = Integer.parseInt(edge[0]);
-			int u = Integer.parseInt(edge[1]);
-			long w = Long.parseLong(edge[2]);
-			g.get(v).add(new Pair(u,w));
-			g.get(u).add(new Pair(v,w));
+			String[] edges = input.nextLine().split(" ");
+			int v1 = Integer.parseInt(edges[0]);
+			int v2 = Integer.parseInt(edges[1]);
+			long w = Long.parseLong(edges[2]);
+			graph.get(v1).add(new Pair(v2,w));
+			graph.get(v2).add(new Pair(v1,w));
 		}
-		
-		//Dijkstra (só essas 14 linhas)
+		dijkstra(distances, graph, predecessors, 1);
+		System.out.println(restorePath(1,n,predecessors));
+	}
+
+	private static void dijkstra(long[] distances, ArrayList < ArrayList<Pair> > graph, int[] predecessors, int start) {
 		PriorityQueue<Pair> pq = new PriorityQueue<>();
-		d[1] = 0;
-		pq.add(new Pair(0, 1));
+		distances[start] = 0;
+		pq.add(new Pair(0, start));
 		while(pq.size() != 0) {
 		    Pair p = pq.poll();
-		    if (p.first > d[(int)p.second]) continue;
-		    for (Pair adj : g.get((int)p.second)) {
-		        if (p.first+adj.second < d[(int)adj.first]) {
-		            d[(int)adj.first] = p.first+adj.second;
-		            pq.add(new Pair(d[(int)adj.first], adj.first));
-		            pre[(int)adj.first] = (int)p.second;
+		    if (p.first > distances[(int)p.second]) continue;
+		    for (Pair adj : graph.get((int)p.second)) {
+		        if (p.first+adj.second < distances[(int)adj.first]) {
+		            distances[(int)adj.first] = p.first+adj.second;
+		            pq.add(new Pair(distances[(int)adj.first], adj.first));
+		            predecessors[(int)adj.first] = (int)p.second;
 		        }
 		    }
 		}
-		
-		//Printa resposta
-		
-		if (pre[n] == 0) {
-		    System.out.println("-1");
-		} else {
-		    ArrayList<Integer> resp = new ArrayList();
-		    while(n != 0) {
-		        resp.add(n);
-		        n = pre[n];
-		    }
-		    for(int i = resp.size()-1; i >= 0; i--) {
-		        if (i != resp.size()-1) System.out.print(" ");
-		        System.out.print(resp.get(i));
-		    }
-		}
-	
 	}
+	private static String restorePath(int s, int t,int[] predecessors) {
+	    if (predecessors[t] == 0) return "-1";
+		Stack<Integer> path = new Stack<Integer>();
+		for(int v = t; v!=s;v=predecessors[v]) {
+			path.add(v);
+		}
+		path.add(s);
+		StringBuilder shortestPath = new StringBuilder();
+		shortestPath.append(path.pop());
+		while(path.size() != 0) {
+		    shortestPath.append(" ");
+			shortestPath.append(path.pop());
+		}
+		return shortestPath.toString();
+	}
+	
 	
 	static class Pair implements Comparable<Pair> {
     	public long first;

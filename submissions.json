@@ -134,6 +134,22 @@
     ],
     "timestamp": "Dec/11/2020 12:14"
   },
+  "CF98065887": {
+    "contest_id": 20,
+    "language": "Java 8",
+    "path": "codeforces/20/C.java",
+    "problem_index": "C",
+    "problem_name": "Dijkstra?",
+    "problem_url": "https://codeforces.com/contest/20/problem/C",
+    "submission_id": "CF98065887",
+    "submission_url": "https://codeforces.com/contest/20/submission/98065887",
+    "tags": [
+      "graphs",
+      "shortest paths",
+      "*1900"
+    ],
+    "timestamp": "Nov/10/2020 11:17"
+  },
   "CF98067155": {
     "contest_id": 20,
     "language": "Java 8",
