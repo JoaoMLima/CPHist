@@ -6,7 +6,9 @@ Submissions
 
 A repository to keep track of problem solving practice, containing solutions from platforms:
 * [Codeforces](https://codeforces.com "Codeforces Homepage")
+
 > Codeforces is a website which hosts competitive programming contests
+
 > The solutions were scraped from the profile [joaom](https://codeforces.com/profile/joaom "joaom's Profile")
 
 ## Contents
